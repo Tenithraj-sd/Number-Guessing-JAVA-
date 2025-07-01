@@ -1,26 +1,21 @@
-🎯 Java Number Guessing Game
+## Java Number Guessing Game
 
 This is a simple and fun console-based Number Guessing Game built in Java as part of my Java Programming Internship at Codmetric.
 
 The game challenges the user to guess a randomly generated number between 1 and 100, giving hints and tracking attempts along the way.
 
-📌 Project Overview
+##📌 Project Overview
 
 The program uses Math.random() to generate a number and takes user input using Scanner. It provides feedback like "Too low", "Too high", or "Correct!" until the user guesses the right number. Input validation ensures only numeric values are accepted, and the total number of attempts is displayed at the end.
 
-🛠️ Features
+## 🛠️ Features
 
 Random number generation
-
 Real-time user input
-
 Input validation (only numbers allowed)
-
 Hint feedback system
-
 Attempt counter
-
-💡 How It Works
+##  💡 How It Works
 
 A number is randomly generated between 1 and 100.
 
@@ -36,7 +31,7 @@ The program responds:
 
 The total number of guesses is displayed.
 
-🔍 Sample Output
+## 🔍 Sample Output
 
 Guess a number between 1 and 100  
 Enter guess: 25  
@@ -47,7 +42,7 @@ Enter guess: 44
 Correct!  
 Tries: 3
 
-📄 Code Snapshot
+## 📄 Code Snapshot
 
 int num = (int)(Math.random() * 100) + 1;
 while (true) {
